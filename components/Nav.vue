@@ -14,8 +14,9 @@
                 align-items-center
               "
             >
-              <div class="logo">
-                <a href="/"><img src="/assets/images/logo.png" alt="" /></a>
+              <div class="logo" style="font-size:1vw">
+                Dragon Seeker
+                <!-- <a href="/"><img src="/assets/images/logo.png" alt="" /></a> -->
               </div>
               <div class="header-top-info d-none d-md-block">
                 <ul>
@@ -70,8 +71,8 @@
               <div class="main-header-menus d-flex">
                 <div class="header-btn">
                   <a @click="checkConnected()" href="#"> {{ showAddress }}</a>
-                  <ul class="sub-menu">
-                    <li><a class="dis-a">Log Out</a></li>
+                  <ul v-show="logOutVis" class="sub-menu">
+                    <li @click="logOut()"><a class="dis-a">Log Out</a></li>
                   </ul>
                 </div>
                 <div class="toggle-btn ml-30 canvas_open">
@@ -160,7 +161,7 @@
                     <li>
                       <nuxt-link to="/testimonials">Monsters</nuxt-link>
                     </li>
-                    <li><nuxt-link to="/contact">Farm</nuxt-link></li>
+                    <li><nuxt-link to="/contact">Farmimg</nuxt-link></li>
                   </ul>
                 </div>
               </div>
@@ -202,7 +203,7 @@
                   <li>
                     <nuxt-link to="/testimonials">Monsters</nuxt-link>
                   </li>
-                  <li><nuxt-link to="/contact">Farm</nuxt-link></li>
+                  <li><nuxt-link to="/contact">Farmimg</nuxt-link></li>
 
                   <!-- <li class="menu-item-has-children active">
                     <span class="menu-expand"
@@ -292,11 +293,7 @@
                 </ul>
               </div>
               <div class="offcanvas_footer">
-                <span
-                  ><a href="mailto:tanvirahmed8282@gmail.com"
-                    ><i class="fa fa-envelope-o"></i> layerdrops@gmail.com</a
-                  ></span
-                >
+                
               </div>
             </div>
           </div>
@@ -336,8 +333,9 @@ export default {
       number: 0,
       balance: 0,
       connected: false,
-      address: "Connect",
-      showAddress: "",
+      address: "",
+      showAddress: "Connect",
+      logOutVis:false
     };
   },
   mounted() {
@@ -391,7 +389,15 @@ export default {
       );
       that.showAddress = start + "..." + end;
     },
-    showUl() {},
+    showUl() {
+      that.logOutVis = true;
+    },
+    logOut(){
+      that.disconnectWallet = true; 
+      that.logOutVis = false; 
+      that.showAddress = "Connect";
+      that.connected = false;
+    }
   },
 };
 </script>
@@ -412,8 +418,8 @@ export default {
   top: 110%;
   width: 200px;
   background-color: #fff;
-  opacity: 0;
-  visibility: hidden;
+  /* opacity: 0;
+  visibility: hidden; */
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;

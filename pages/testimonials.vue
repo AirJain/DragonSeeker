@@ -1,7 +1,7 @@
 <template>
   <div>
     <Nav />
-    <PageHeader title="Testimonials" />
+    <PageHeader title="Monsters" />
     <TestimonialPage />
     <ContactArea />
     <FooterTwo />
@@ -25,7 +25,7 @@
     },
     head(){
       return {
-        title: "Indutri | Testimonials"
+        title: "Monsters"
       }
     }
   }

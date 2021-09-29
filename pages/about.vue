@@ -1,7 +1,7 @@
 <template>
   <div>
     <Nav />
-    <PageHeader title="About Us" />
+    <PageHeader title="Dragon Egg" />
     <AboutPage />
     <FunFactArea />
     <ClientPage />
@@ -40,7 +40,7 @@
     },
     head(){
       return {
-        title: "Indutri | About Us"
+        title: "Dragon Egg"
       }
     }
   }

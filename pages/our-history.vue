@@ -1,7 +1,7 @@
 <template>
   <div>
     <Nav />
-    <PageHeader title="Our History" />
+    <PageHeader title="My Dragon" />
     <HistoryPage />
     <FooterTwo />
   </div>

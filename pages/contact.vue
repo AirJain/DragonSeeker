@@ -1,7 +1,7 @@
 <template>
   <div>
     <Nav />
-    <PageHeader title="Contact us" />
+    <PageHeader title="Farmimg" />
     <ContactPage />
     <GMap />
     <FooterTwo />
@@ -25,7 +25,7 @@
     },
     head(){
       return {
-        title: "Indutri | Contact Us"
+        title: "Farmimg"
       }
     }
   }

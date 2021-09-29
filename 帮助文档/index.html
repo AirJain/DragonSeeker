@@ -1,0 +1,67 @@
+<!--
+ * @Author: your name
+ * @Date: 2021-09-27 12:06:16
+ * @LastEditTime: 2021-09-27 17:36:42
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \Indutri\components\Nav.vue
+-->
+<template>
+  <div id="app">
+    <web3-modal-vue
+      ref="web3modal"
+      :theme="theme"
+      :provider-options="providerOptions"
+      cache-provider
+    />
+  </div>
+</template>
+<script>
+import Web3ModalVue from "web3modal-vue";
+import WalletConnectProvider from "@walletconnect/web3-provider";
+import { web3Modal } from "../config/mixins";
+import Header from "@/components/Header";
+
+export default {
+  components: {
+    Header, 
+    Web3ModalVue
+  },
+  mixins: [web3Modal],
+  data() {
+    return {
+      theme: "light",
+      providerOptions: {
+        walletconnect: {
+          package: WalletConnectProvider,
+          options: {
+            infuraId: "-",
+          },
+        },
+      },
+      number: 0,
+      balance: 0,
+    };
+  },
+  created() {},
+  mounted() {
+    debugger
+    if (process.client) {
+      require("web3modal-vue");
+      this.$nextTick(async () => {
+        const web3modal = this.$refs.web3modal;
+        this.$store.commit("setWeb3Modal", web3modal);
+        if (web3modal.cachedProvider) {
+          await this.$store.dispatch("connect");
+          this.subscribeMewBlockHeaders();
+        }
+      });
+    }
+  },
+  methods: {
+    connect() {
+      this.$store.dispatch("connect");
+    },
+  },
+};
+</script>

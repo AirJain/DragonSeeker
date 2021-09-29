@@ -20,22 +20,32 @@
               <div class="header-top-info d-none d-md-block">
                 <ul>
                   <li>
-                    <i class="flaticon-email"></i>
-                    <span>telegram</span>
+                    <!-- <i class="fa-telegram"></i> -->
+                    <img
+                      class="myapps"
+                      src="/assets/images/twitter.png"
+                    />
+                    <span>twitter</span>
                     <a target="_blank" href="https://twitter.com/pancakeswap"
                       >https://t.me/pancakeswap</a
                     >
                   </li>
                   <li>
-                    <i class="flaticon-calling"></i>
-                    <span>twitter</span>
+                    <img
+                      class="myapps"
+                      src="/assets/images/telegram.png"
+                    />
+                    <span>telegram</span>
                     <a target="_blank" href="https://t.me/PancakeSwap_CN"
                       >https://twitter.com/pancakeswap</a
                     >
                   </li>
                   <li>
-                    <i class="flaticon-address"></i>
-                    <span>Visit</span>
+                    <img
+                      class="myapps"
+                      src="/assets/images/facebook.png"
+                    />
+                    <span>facebook</span>
                     <a target="_blank" href="#">66 Broklyn New Street, USA</a>
                   </li>
                 </ul>
@@ -327,7 +337,7 @@ export default {
       balance: 0,
       connected: false,
       address: "Connect",
-      showAddress:""
+      showAddress: "",
     };
   },
   mounted() {
@@ -339,7 +349,7 @@ export default {
       if (that.connected == false) {
         that.connect();
       } else {
-        that.showUl(); 
+        that.showUl();
       }
     },
     async connect() {
@@ -374,18 +384,28 @@ export default {
     setState(isConnect, address) {
       that.connected = isConnect;
       that.address = address;
-      var start =  that.address.substring(0,2);
-      var end = that.address.substring(that.address.length - 4, that.address.length);
+      var start = that.address.substring(0, 2);
+      var end = that.address.substring(
+        that.address.length - 4,
+        that.address.length
+      );
       that.showAddress = start + "..." + end;
     },
-    showUl() {
-      
-    },
+    showUl() {},
   },
 };
 </script>
 
 <style scoped>
+.myapps {
+  position: absolute;
+  left: 60px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 40px;
+  color: #ff5316;
+  width: 40px;
+}
 .sub-menu {
   position: absolute;
   left: 30px;

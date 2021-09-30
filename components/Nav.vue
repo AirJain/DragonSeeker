@@ -14,38 +14,29 @@
                 align-items-center
               "
             >
-              <div class="logo" style="font-size:1vw">
+              <div class="logo" style="font-size: 1vw">
                 Dragon Seeker
-                <!-- <a href="/"><img src="/assets/images/logo.png" alt="" /></a> -->
+                <!-- <a href="/"><img src="/assets/images/logo2.png" alt="" /></a> -->
               </div>
               <div class="header-top-info d-none d-md-block">
                 <ul>
                   <li>
                     <!-- <i class="fa-telegram"></i> -->
-                    <img
-                      class="myapps"
-                      src="/assets/images/twitter.png"
-                    />
+                    <img class="myapps" src="/assets/images/twitter.png" />
                     <span>twitter</span>
                     <a target="_blank" href="https://twitter.com/pancakeswap"
                       >https://t.me/pancakeswap</a
                     >
                   </li>
                   <li>
-                    <img
-                      class="myapps"
-                      src="/assets/images/telegram.png"
-                    />
+                    <img class="myapps" src="/assets/images/telegram.png" />
                     <span>telegram</span>
                     <a target="_blank" href="https://t.me/PancakeSwap_CN"
                       >https://twitter.com/pancakeswap</a
                     >
                   </li>
                   <li>
-                    <img
-                      class="myapps"
-                      src="/assets/images/facebook.png"
-                    />
+                    <img class="myapps" src="/assets/images/facebook.png" />
                     <span>facebook</span>
                     <a target="_blank" href="#">66 Broklyn New Street, USA</a>
                   </li>
@@ -153,15 +144,17 @@
                         </li>
                       </ul>
                     </li> -->
-                    <li><nuxt-link to="/about">Dragon Egg</nuxt-link></li>
-                    <li><nuxt-link to="/our-team">MarketPlace</nuxt-link></li>
+                    <li><nuxt-link to="/">Dragon Egg</nuxt-link></li>
                     <li>
-                      <nuxt-link to="/our-history">My Dragon</nuxt-link>
+                      <nuxt-link to="/marketplace">MarketPlace</nuxt-link>
                     </li>
                     <li>
-                      <nuxt-link to="/testimonials">Monsters</nuxt-link>
+                      <nuxt-link to="/mydragon">My Dragon</nuxt-link>
                     </li>
-                    <li><nuxt-link to="/contact">Farmimg</nuxt-link></li>
+                    <li>
+                      <nuxt-link to="/monsters">Monsters</nuxt-link>
+                    </li>
+                    <li><nuxt-link to="/farming">Farming</nuxt-link></li>
                   </ul>
                 </div>
               </div>
@@ -195,15 +188,15 @@
               </div>
               <div id="menu" class="text-left">
                 <ul class="offcanvas_main_menu">
-                  <li><nuxt-link to="/about">Dragon Egg</nuxt-link></li>
-                  <li><nuxt-link to="/our-team">MarketPlace</nuxt-link></li>
+                  <li><nuxt-link to="/">Dragon Egg</nuxt-link></li>
+                  <li><nuxt-link to="/marketplace">MarketPlace</nuxt-link></li>
                   <li>
-                    <nuxt-link to="/our-history">My Dragon</nuxt-link>
+                    <nuxt-link to="/mydragon">My Dragon</nuxt-link>
                   </li>
                   <li>
-                    <nuxt-link to="/testimonials">Monsters</nuxt-link>
+                    <nuxt-link to="/monsters">Monsters</nuxt-link>
                   </li>
-                  <li><nuxt-link to="/contact">Farmimg</nuxt-link></li>
+                  <li><nuxt-link to="/farming">Farming</nuxt-link></li>
 
                   <!-- <li class="menu-item-has-children active">
                     <span class="menu-expand"
@@ -292,9 +285,7 @@
                   </li> -->
                 </ul>
               </div>
-              <div class="offcanvas_footer">
-                
-              </div>
+              <div class="offcanvas_footer"></div>
             </div>
           </div>
         </div>
@@ -335,7 +326,7 @@ export default {
       connected: false,
       address: "",
       showAddress: "Connect",
-      logOutVis:false
+      logOutVis: false,
     };
   },
   mounted() {
@@ -392,12 +383,12 @@ export default {
     showUl() {
       that.logOutVis = true;
     },
-    logOut(){
-      that.disconnectWallet = true; 
-      that.logOutVis = false; 
+    logOut() {
+      that.disconnectWallet = true;
+      that.logOutVis = false;
       that.showAddress = "Connect";
       that.connected = false;
-    }
+    },
   },
 };
 </script>

@@ -2,8 +2,7 @@
   <div>
     <Nav />
     <PageHeader title="Monsters" />
-    <TestimonialPage />
-    <ContactArea />
+    <TestimonialPage /> 
     <FooterTwo />
   </div>
 </template>

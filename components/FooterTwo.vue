@@ -1,6 +1,6 @@
 <template>
     <div>
-      <footer class="footer-area">
+      <!-- <footer class="footer-area">
         <div class="container">
           <div class="footer-main">
             <div class="row">
@@ -106,7 +106,7 @@
         <div class="footer-shape-2 animated wow fadeInLeft" data-wow-duration="1500ms" data-wow-delay="0ms">
           <img src="/assets/images/shape/shape-6.png" alt="">
         </div>
-      </footer>
+      </footer> -->
 
       <div class="go-top-area">
         <div class="go-top-wrap">

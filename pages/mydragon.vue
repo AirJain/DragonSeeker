@@ -1,8 +1,16 @@
+<!--
+ * @Author: your name
+ * @Date: 2021-09-29 17:35:20
+ * @LastEditTime: 2021-09-30 17:58:05
+ * @LastEditors: your name
+ * @Description: In User Settings Edit
+ * @FilePath: \DragonSeeker\pages\mydragon.vue
+-->
 <template>
   <div>
     <Nav />
     <PageHeader title="My Dragon" />
-    <HistoryPage />
+    <MyDragonPage />
     <FooterTwo />
   </div>
 </template>
@@ -12,10 +20,10 @@
   import Nav from "../components/Nav";
   import FooterTwo from "../components/FooterTwo";
   import PageHeader from "../components/PageHeader";
-  import HistoryPage from "../components/HistoryPage";
+  import MyDragonPage from "../components/MyDragonPage";
   export default {
     components: {
-      HistoryPage,
+      MyDragonPage,
       PageHeader,
       FooterTwo,
       Nav

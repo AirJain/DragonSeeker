@@ -2,7 +2,7 @@
   <div>
     <Nav />
     <PageHeader title="Monsters" />
-    <TestimonialPage /> 
+    <MonstersPage /> 
     <FooterTwo />
   </div>
 </template>
@@ -12,12 +12,12 @@
   import Nav from "../components/Nav";
   import FooterTwo from "../components/FooterTwo";
   import PageHeader from "../components/PageHeader";
-  import TestimonialPage from "../components/TestimonialPage";
+  import MonstersPage from "../components/MonstersPage";
   import ContactArea from "../components/ContactArea";
   export default {
     components: {
       ContactArea,
-      TestimonialPage,
+      MonstersPage,
       PageHeader,
       FooterTwo,
       Nav

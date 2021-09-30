@@ -1,8 +1,16 @@
+<!--
+ * @Author: your name
+ * @Date: 2021-09-29 17:35:20
+ * @LastEditTime: 2021-09-30 17:56:44
+ * @LastEditors: your name
+ * @Description: In User Settings Edit
+ * @FilePath: \DragonSeeker\pages\marketplace.vue
+-->
 <template>
   <div>
     <Nav />
     <PageHeader title="MarketPlace" />
-    <TeamPage />
+    <MarketplacePage />
     <FooterTwo />
   </div>
 </template>
@@ -12,10 +20,10 @@
   import Nav from "../components/Nav";
   import FooterTwo from "../components/FooterTwo";
   import PageHeader from "../components/PageHeader";
-  import TeamPage from "../components/TeamPage";
+  import MarketplacePage from "../components/MarketplacePage";
   export default {
     components: {
-      TeamPage,
+      MarketplacePage,
       PageHeader,
       FooterTwo,
       Nav

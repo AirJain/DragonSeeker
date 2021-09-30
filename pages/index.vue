@@ -1,3 +1,11 @@
+<!--
+ * @Author: your name
+ * @Date: 2021-09-29 17:35:20
+ * @LastEditTime: 2021-09-30 17:55:39
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \DragonSeeker\pages\index.vue
+-->
 <template>
   <div>
     <Nav />
@@ -7,7 +15,7 @@
     <ClientPage />
     <VideoArea />
     <BrandArea /> -->
-    <LeadershipPage />
+    <DragonEggPage />
      <FooterTwo />
     <!-- <ContactArea />  -->
   </div>
@@ -23,12 +31,12 @@
   import ClientPage from "../components/ClientPage";
   import VideoArea from "../components/VideoArea";
   import BrandArea from "../components/BrandArea";
-  import LeadershipPage from "../components/LeadershipPage";
+  import DragonEggPage from "../components/DragonEggPage";
   import ContactArea from "../components/ContactArea";
   export default {
     components: {
       ContactArea,
-      LeadershipPage,
+      DragonEggPage,
       BrandArea,
       VideoArea,
       ClientPage,

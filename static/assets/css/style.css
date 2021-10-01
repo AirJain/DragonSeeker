@@ -613,7 +613,7 @@ p {
   background: #192437;
   padding: 17px 0;
   position: relative;
-  z-index: 10; }
+  z-index: 1; }
   .header-area.header-2-area .header-top-2 .container-fluid {
     max-width: 1595px; }
   .header-area.header-2-area .header-top-2::before {
@@ -977,7 +977,7 @@ p {
 .banner-area {
   height: 830px;
   position: relative;
-  z-index: 10; }
+  z-index: 1; }
   .banner-area::before {
     position: absolute;
     content: '';
@@ -1027,7 +1027,7 @@ p {
   .banner-area .banner-content a {
     box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.04); }
   .banner-area.banner-2-area {
-    z-index: 10; }
+    z-index: 1; }
     .banner-area.banner-2-area .banner-shadow {
       position: absolute;
       left: 0;
@@ -1163,7 +1163,7 @@ p {
     .services-area .services-bg .services-item {
       position: relative;
       overflow: hidden;
-      z-index: 10; }
+      z-index: 1; }
       .services-area .services-bg .services-item .icon {
         position: absolute;
         left: 50%;
@@ -1275,7 +1275,7 @@ p {
     transition: all 0.3s ease-out 0s; }
     .industri-services-area .services-item .services-thumb {
       position: relative;
-      z-index: 10; }
+      z-index: 1; }
       .industri-services-area .services-item .services-thumb .icon {
         position: absolute;
         left: 50px;
@@ -1379,7 +1379,7 @@ p {
     padding-bottom: 153px;
     padding-top: 166px;
     position: relative;
-    z-index: 10; }
+    z-index: 1; }
     .industri-services-area.industri-services-2-area .shape {
       position: absolute;
       left: 0;
@@ -1734,7 +1734,7 @@ p {
 ===========================*/
 .video-area {
   position: relative;
-  z-index: 10;
+  z-index: 1;
   background-attachment: fixed; }
   .video-area::before {
     position: absolute;
@@ -1777,7 +1777,7 @@ p {
     font-size: 24px;
     color: #fff;
     position: relative;
-    z-index: 10; }
+    z-index: 1; }
     .video-area .video-item a::before {
       position: absolute;
       content: '';
@@ -1861,7 +1861,7 @@ p {
 ===========================*/
 .bulidings-area {
   position: relative;
-  z-index: 10; }
+  z-index: 1; }
   .bulidings-area .bulidings-shape {
     position: absolute;
     right: 0;
@@ -1977,7 +1977,7 @@ p {
       -ms-transition: all 0.3s ease-out 0s;
       -o-transition: all 0.3s ease-out 0s;
       transition: all 0.3s ease-out 0s;
-      z-index: 10; }
+      z-index: 1; }
       .bulidings-area .bulidings-content .item i::after {
         position: absolute;
         content: '';
@@ -2050,7 +2050,7 @@ p {
 .client-area {
   padding-bottom: 60px;
   position: relative;
-  z-index: 10; }
+  z-index: 1; }
   .client-area .client-title {
     padding-bottom: 25px; }
     .client-area .client-title .title {
@@ -2256,7 +2256,7 @@ p {
     background: #ff5316;
     padding: 40px 0 75px;
     position: relative;
-    z-index: 10; }
+    z-index: 1; }
     .fun-facts-area .fun-facts-bg .shape {
       position: absolute;
       left: 0;
@@ -2492,7 +2492,7 @@ p {
   .project-contact-area .project-contact-item {
     padding: 106px 0;
     position: relative;
-    z-index: 10; }
+    z-index: 1; }
     @media (max-width: 767px) {
       .project-contact-area .project-contact-item {
         padding: 160px 0 100px; } }
@@ -2581,7 +2581,7 @@ p {
     left: 100px; } }
 .solution-2-area {
   position: relative;
-  z-index: 10; }
+  z-index: 1; }
   .solution-2-area .shape-1 {
     position: absolute;
     left: 0;
@@ -2701,7 +2701,7 @@ p {
 .project-2-area {
   background: #192437;
   position: relative;
-  z-index: 10; }
+  z-index: 1; }
   .project-2-area::before {
     position: absolute;
     content: '';
@@ -3144,7 +3144,7 @@ p {
   padding-top: 120px;
   padding-bottom: 120px;
   position: relative;
-  z-index: 10; }
+  z-index: 1; }
   .future-area .features-shape {
     position: absolute;
     left: 0;
@@ -3368,7 +3368,7 @@ p {
     background: #f4f4f5;
     padding-bottom: 120px;
     position: relative;
-    z-index: 10; }
+    z-index: 1; }
     .news-area.news-3-area .shape {
       position: absolute;
       left: 0;
@@ -4088,7 +4088,7 @@ p {
 .footer-area {
   position: relative;
   background: #192437;
-  z-index: 10; }
+  z-index: 1; }
   .footer-area .footer-copyright {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     margin-top: 100px; }
@@ -4139,7 +4139,7 @@ p {
   padding: 0 60px;
   margin-top: -140px;
   position: relative;
-  z-index: 10; }
+  z-index: 1; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .footer-sing-up {
       padding: 32px 60px;
@@ -4208,7 +4208,7 @@ p {
       border: 0;
       color: #fff;
       font-size: 14px;
-      z-index: 10;
+      z-index: 1;
       -webkit-transition: all 0.4s ease-out 0s;
       -moz-transition: all 0.4s ease-out 0s;
       -ms-transition: all 0.4s ease-out 0s;
@@ -4770,7 +4770,7 @@ p {
         position: absolute;
         left: 0;
         bottom: 0;
-        z-index: 10; }
+        z-index: 1; }
         .leadership-area .leadership-item .leadership-thumb .social > a {
           height: 45px;
           width: 45px;
@@ -4841,7 +4841,7 @@ p {
     margin-bottom: 0;
     padding-bottom: 120px;
     position: relative;
-    z-index: 10; }
+    z-index: 1; }
     .leadership-area.about-leadership .shape {
       position: absolute;
       right: 0;
@@ -5039,7 +5039,7 @@ p {
   .about-area.about-page {
     padding-top: 120px;
     position: relative;
-    z-index: 10; }
+    z-index: 1; }
     .about-area.about-page > .shape {
       position: absolute;
       right: 0;
@@ -5255,7 +5255,7 @@ p {
   background: #192437;
   position: relative;
   padding-top: 120px;
-  z-index: 10;
+  z-index: 1;
   overflow: hidden; }
   .experience-area::before {
     position: absolute;

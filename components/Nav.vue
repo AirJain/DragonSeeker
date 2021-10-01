@@ -7,14 +7,9 @@
         <div class="row">
           <div class="col-lg-12">
             <div
-              class="
-                header-top-items
-                d-flex
-                justify-content-between
-                align-items-center
-              "
+              class="header-top-items d-flex"
             >
-              <div class="logo" style="font-size: 1vw">
+              <div class="logo" style="">
                 Dragon Seeker
                 <!-- <a href="/"><img src="/assets/images/logo2.png" alt="" /></a> -->
               </div>
@@ -48,31 +43,18 @@
       </div>
     </div>
     <div class="main-header">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div
-              class="
-                main-header-item
-                d-flex
-                justify-content-between
-                align-items-center
-              "
-            >
+      <div  style="width:100%;">
+        <div style="width:100%;">
+          <div class="col-lg-12" style="width:100%;padding:0;background: #121b2b;">
+            <div class="main-header-item">
               <div class="main-header-menus d-flex">
-                <div class="header-btn">
-                  <a @click="checkConnected()" href="#"> {{ showAddress }}</a>
-                  <ul v-show="logOutVis" class="sub-menu">
-                    <li @click="logOut()"><a class="dis-a">Log Out</a></li>
-                  </ul>
-                </div>
-                <div class="toggle-btn ml-30 canvas_open">
+                <div  style="margin-left:30px" class="toggle-btn ml-30 canvas_open">
                   <i
                     @click="mobileToggle = !mobileToggle"
                     class="fa fa-bars"
                   ></i>
                 </div>
-                <div class="header-menu d-none d-lg-block">
+                <div class="header-menu d-none d-lg-block" style="justify-content: flex-start;display: flex;align-items: center;">
                   <ul>
                     <!-- <li>
                       <a class="active" href="#">My Pet</a>
@@ -157,6 +139,12 @@
                     <li><nuxt-link to="/farming">Farming</nuxt-link></li>
                   </ul>
                 </div>
+                <div class="header-btn" style=" flex:1;justify-content: flex-end;display: flex;align-items: center; ">
+                  <a style="border:0;" @click="checkConnected()" href="#"> {{ showAddress }}</a>
+                  <ul v-show="logOutVis" class="sub-menu">
+                    <li @click="logOut()"><a class="dis-a">Log Out</a></li>
+                  </ul>
+                </div>
               </div>
             </div>
 
@@ -173,16 +161,14 @@
               <div class="header-social">
                 <ul class="text-center">
                   <li>
-                    <a href="#"><i class="fa fa-facebook-f"></i></a>
+                    <a target="_blank" href="https://t.me/PancakeSwap_CN"
+                      ><i class="fa fa-facebook-f"></i
+                    ></a>
                   </li>
                   <li>
-                    <a href="#"><i class="fa fa-twitter"></i></a>
-                  </li>
-                  <li>
-                    <a href="#"><i class="fa fa-skype"></i></a>
-                  </li>
-                  <li>
-                    <a href="#"><i class="fa fa-pinterest-p"></i></a>
+                    <a target="_blank" href="https://twitter.com/pancakeswap"
+                      ><i class="fa fa-twitter"></i
+                    ></a>
                   </li>
                 </ul>
               </div>
@@ -404,8 +390,7 @@ export default {
   width: 40px;
 }
 .sub-menu {
-  position: absolute;
-  left: 30px;
+  position: absolute; 
   top: 110%;
   width: 200px;
   background-color: #fff;

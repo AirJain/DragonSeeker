@@ -9,7 +9,7 @@
 <template>
   <section class="leadership-area about-leadership">
     <div class="container">
-      <div class="row" style="margin-top:50px">
+      <div class="row" style="margin-top: 50px">
         <div class="col-lg-12">
           <div class="leadership-title text-center">
             <h3 class="title">Choose an egg you like.</h3>
@@ -20,10 +20,12 @@
         <div class="col-lg-4 col-md-6 col-sm-9">
           <div class="leadership-item mt-30" style="border: 0">
             <div class="egg-container">
-              <img src="/assets/images/egg-bg.jpg" />
-              <div class="allCenter egg-bg">
-                <img src="/assets/images/egg2.jpg" style="width: 50%" />
-              </div>
+              <div style="width:100%;height:auto;position: relative;">
+                <img src="/assets/images/egg-bg.jpg" />
+                <div class="allCenter egg-bg">
+                  <img src="/assets/images/stone-egg.png" style="width: 50%" />
+                </div>
+              </div> 
               <div class="col-lg-12 text-left mt-30">
                 <div class="input-box">
                   <button type="submit" class="main-btn open-approve">
@@ -40,10 +42,12 @@
         <div class="col-lg-4 col-md-6 col-sm-9">
           <div class="leadership-item mt-30" style="border: 0">
             <div class="egg-container">
-              <img src="/assets/images/egg-bg.jpg" />
-              <div class="allCenter egg-bg">
-                <img src="/assets/images/egg2.jpg" style="width: 50%" />
-              </div>
+             <div style="width:100%;height:auto;position: relative;">
+                <img src="/assets/images/egg-bg.jpg" />
+                <div class="allCenter egg-bg">
+                  <img src="/assets/images/sky-egg.png" style="width: 50%" />
+                </div>
+              </div> 
               <div class="col-lg-12 text-left mt-30">
                 <div class="input-box">
                   <button type="submit" class="main-btn open-approve">
@@ -59,10 +63,12 @@
         <div class="col-lg-4 col-md-6 col-sm-9">
           <div class="leadership-item mt-30" style="border: 0">
             <div class="egg-container">
-              <img src="/assets/images/egg-bg.jpg" />
-              <div class="allCenter egg-bg">
-                <img src="/assets/images/egg2.jpg" style="width: 50%" />
-              </div>
+              <div style="width:100%;height:auto;position: relative;">
+                <img src="/assets/images/egg-bg.jpg" />
+                <div class="allCenter egg-bg">
+                  <img src="/assets/images/wood-egg.png" style="width: 50%" />
+                </div>
+              </div> 
               <div class="col-lg-12 text-left mt-30">
                 <div class="input-box">
                   <button type="submit" class="main-btn open-approve">

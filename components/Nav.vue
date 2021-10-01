@@ -9,9 +9,10 @@
             <div
               class="header-top-items d-flex"
             >
-              <div class="logo" style="">
-                Dragon Seeker
-                <!-- <a href="/"><img src="/assets/images/logo2.png" alt="" /></a> -->
+              <div style="padding: 10px 85px 10px 0;" class="logo"> 
+
+              
+                <a href="/"><img style="width:12vh" src="/assets/images/DSClogo.png" alt="" /></a>
               </div>
               <div class="header-top-info d-none d-md-block">
                 <ul>

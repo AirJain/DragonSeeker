@@ -20,12 +20,18 @@
         <div class="col-lg-4 col-md-6 col-sm-9">
           <div class="leadership-item mt-30" style="border: 0">
             <div class="egg-container">
-              <div style="width:100%;height:auto;position: relative;">
-                <img src="/assets/images/egg-bg.jpg" />
+              <div style="width: 100%; height: auto; position: relative">
+                <img src="/assets/images/egg-bg.jpg" /> 
                 <div class="allCenter egg-bg">
-                  <img src="/assets/images/stone-egg.png" style="width: 50%" />
+                  <div style="text-align: center;">
+                    <img
+                      src="/assets/images/stone-egg.png"
+                      style="width: 50%"
+                    />
+                    <div style="margin-top:1vh">Stone Egg</div>
+                  </div>
                 </div>
-              </div> 
+              </div>
               <div class="col-lg-12 text-left mt-30">
                 <div class="input-box">
                   <button type="submit" class="main-btn open-approve">
@@ -42,12 +48,18 @@
         <div class="col-lg-4 col-md-6 col-sm-9">
           <div class="leadership-item mt-30" style="border: 0">
             <div class="egg-container">
-             <div style="width:100%;height:auto;position: relative;">
+              <div style="width: 100%; height: auto; position: relative">
                 <img src="/assets/images/egg-bg.jpg" />
                 <div class="allCenter egg-bg">
-                  <img src="/assets/images/sky-egg.png" style="width: 50%" />
+                  <div style="text-align: center;">
+                    <img
+                      src="/assets/images/sky-egg.png"
+                      style="width: 50%"
+                    />
+                    <div style="margin-top:1vh">Sky Egg</div>
+                  </div>
                 </div>
-              </div> 
+              </div>
               <div class="col-lg-12 text-left mt-30">
                 <div class="input-box">
                   <button type="submit" class="main-btn open-approve">
@@ -63,12 +75,18 @@
         <div class="col-lg-4 col-md-6 col-sm-9">
           <div class="leadership-item mt-30" style="border: 0">
             <div class="egg-container">
-              <div style="width:100%;height:auto;position: relative;">
+              <div style="width: 100%; height: auto; position: relative">
                 <img src="/assets/images/egg-bg.jpg" />
                 <div class="allCenter egg-bg">
-                  <img src="/assets/images/wood-egg.png" style="width: 50%" />
+                  <div style="text-align: center;">
+                    <img
+                      src="/assets/images/wood-egg.png"
+                      style="width: 60%"
+                    />
+                    <div style="margin-top:1vh">Wood Egg</div>
+                  </div>
                 </div>
-              </div> 
+              </div>
               <div class="col-lg-12 text-left mt-30">
                 <div class="input-box">
                   <button type="submit" class="main-btn open-approve">

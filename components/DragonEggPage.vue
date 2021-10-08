@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2021-09-29 17:35:20
- * @LastEditTime: 2021-09-30 14:26:05
+ * @LastEditTime: 2021-10-08 17:56:17
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \DragonSeeker\components\LeadershipPage.vue
@@ -12,23 +12,23 @@
       <div class="row" style="margin-top: 50px">
         <div class="col-lg-12">
           <div class="leadership-title text-center">
-            <h3 class="title">Choose an egg you like.</h3>
+            <h3  class="title" style="color: #f4f4f5;">Choose an egg you like.</h3>
           </div>
         </div>
       </div>
       <div class="row justify-content-center">
         <div class="col-lg-4 col-md-6 col-sm-9">
-          <div class="leadership-item mt-30" style="border: 0">
+          <div class="leadership-item mt-30" style="background:none;border:0">
             <div class="egg-container">
               <div style="width: 100%; height: auto; position: relative">
-                <img src="/assets/images/egg-bg.jpg" /> 
+                <img src="/assets/images/egg-bg.png" /> 
                 <div class="allCenter egg-bg">
                   <div style="text-align: center;">
                     <img
                       src="/assets/images/stone-egg.png"
                       style="width: 50%"
                     />
-                    <div style="margin-top:1vh">Stone Egg</div>
+                    <div style="margin-top:1vh;color:#f4f4f5">Stone Egg</div>
                   </div>
                 </div>
               </div>
@@ -46,17 +46,17 @@
         </div>
 
         <div class="col-lg-4 col-md-6 col-sm-9">
-          <div class="leadership-item mt-30" style="border: 0">
+          <div class="leadership-item mt-30" style="background:none;border:0">
             <div class="egg-container">
               <div style="width: 100%; height: auto; position: relative">
-                <img src="/assets/images/egg-bg.jpg" />
+                <img src="/assets/images/egg-bg.png" />
                 <div class="allCenter egg-bg">
                   <div style="text-align: center;">
                     <img
                       src="/assets/images/sky-egg.png"
                       style="width: 50%"
                     />
-                    <div style="margin-top:1vh">Sky Egg</div>
+                    <div style="margin-top:1vh;color:#f4f4f5">Sky Egg</div>
                   </div>
                 </div>
               </div>
@@ -73,17 +73,17 @@
           </div>
         </div>
         <div class="col-lg-4 col-md-6 col-sm-9">
-          <div class="leadership-item mt-30" style="border: 0">
+          <div class="leadership-item mt-30" style="background:none;border:0">
             <div class="egg-container">
               <div style="width: 100%; height: auto; position: relative">
-                <img src="/assets/images/egg-bg.jpg" />
+                <img src="/assets/images/egg-bg.png" />
                 <div class="allCenter egg-bg">
                   <div style="text-align: center;">
                     <img
                       src="/assets/images/wood-egg.png"
                       style="width: 60%"
                     />
-                    <div style="margin-top:1vh">Wood Egg</div>
+                    <div style="margin-top:1vh;color:#f4f4f5">Wood Egg</div>
                   </div>
                 </div>
               </div>

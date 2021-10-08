@@ -1,13 +1,13 @@
 <!--
  * @Author: your name
  * @Date: 2021-09-29 17:35:20
- * @LastEditTime: 2021-10-08 17:56:17
+ * @LastEditTime: 2021-10-08 18:04:19
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \DragonSeeker\components\LeadershipPage.vue
 -->
 <template>
-  <section class="leadership-area about-leadership">
+  <section style="background-image: url(/assets/images/page-bg.jpg);" class="leadership-area about-leadership bg_cover">
     <div class="container">
       <div class="row" style="margin-top: 50px">
         <div class="col-lg-12">

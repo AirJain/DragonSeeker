@@ -1,24 +1,24 @@
 <!--
  * @Author: your name
  * @Date: 2021-09-29 17:35:20
- * @LastEditTime: 2021-10-08 18:11:28
+ * @LastEditTime: 2021-10-09 17:59:28
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \DragonSeeker\components\LeadershipPage.vue
 -->
 <template>
-  <section class="leadership-area about-leadership">
+  <section style="background: url(/assets/images/bg3.jpg);background-size:cover" class="leadership-area about-leadership">
     <div class="container">
       <div class="row" style="margin-top: 50px">
         <div class="col-lg-12">
           <div class="leadership-title text-center">
-            <h3  class="title" style="color: #f4f4f5;">Choose an egg you like.</h3>
+            <h3 style="color:#f4f4f5" class="title">Choose an egg you like.</h3>
           </div>
         </div>
       </div>
-      <div class="row justify-content-center">
+      <div style="background: rgba(244,244,245,0.12);" class="row justify-content-center">
         <div class="col-lg-4 col-md-6 col-sm-9">
-          <div class="leadership-item mt-30" style="background:none;border:0">
+          <div class="leadership-item mt-30" style="border: 0;background:none">
             <div class="egg-container">
               <div style="width: 100%; height: auto; position: relative">
                 <img src="/assets/images/egg-bg.png" /> 
@@ -46,7 +46,7 @@
         </div>
 
         <div class="col-lg-4 col-md-6 col-sm-9">
-          <div class="leadership-item mt-30" style="background:none;border:0">
+          <div class="leadership-item mt-30" style="border: 0;background:none">
             <div class="egg-container">
               <div style="width: 100%; height: auto; position: relative">
                 <img src="/assets/images/egg-bg.png" />
@@ -73,7 +73,7 @@
           </div>
         </div>
         <div class="col-lg-4 col-md-6 col-sm-9">
-          <div class="leadership-item mt-30" style="background:none;border:0">
+          <div class="leadership-item mt-30" style="border: 0;background:none">
             <div class="egg-container">
               <div style="width: 100%; height: auto; position: relative">
                 <img src="/assets/images/egg-bg.png" />
@@ -106,7 +106,7 @@
       data-wow-duration="1500ms"
       data-wow-delay="0ms"
     >
-      <img src="/assets/images/shape/shape-13.png" alt="" />
+      <!-- <img src="/assets/images/shape/shape-13.png" alt="" /> -->
     </div>
   </section>
 </template>

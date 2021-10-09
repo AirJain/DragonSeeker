@@ -1,13 +1,13 @@
 <!--
  * @Author: your name
  * @Date: 2021-09-29 17:35:20
- * @LastEditTime: 2021-10-08 18:11:19
+ * @LastEditTime: 2021-10-09 10:40:00
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \DragonSeeker\pages\index.vue
 -->
 <template>
-  <div class="bg_cover" style="background-image: url(/assets/images/page-bg.jpg);">
+  <div>
     <Nav />
     <PageHeader title="Dragon Egg" />
     <!-- <AboutPage />

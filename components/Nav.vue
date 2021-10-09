@@ -1,7 +1,7 @@
 <template>
   <!-- https://t.me/PancakeSwap_CN -->
   <!-- https://t.me/pancakeswap -->
-  <header style="background:#f4f4f5" class="header-area">
+  <header class="header-area">
     <div class="header-top">
       <div class="container">
         <div class="row">

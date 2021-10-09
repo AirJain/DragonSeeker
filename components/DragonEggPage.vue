@@ -1,34 +1,45 @@
 <!--
  * @Author: your name
  * @Date: 2021-09-29 17:35:20
- * @LastEditTime: 2021-10-09 17:59:28
+ * @LastEditTime: 2021-10-09 18:09:48
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \DragonSeeker\components\LeadershipPage.vue
 -->
 <template>
-  <section style="background: url(/assets/images/bg3.jpg);background-size:cover" class="leadership-area about-leadership">
+  <section
+    style="background: url(/assets/images/bg3.jpg); background-size: cover"
+    class="leadership-area about-leadership"
+  >
     <div class="container">
       <div class="row" style="margin-top: 50px">
         <div class="col-lg-12">
           <div class="leadership-title text-center">
-            <h3 style="color:#f4f4f5" class="title">Choose an egg you like.</h3>
+            <h3 style="color: #f4f4f5" class="title">
+              Choose an egg you like.
+            </h3>
           </div>
         </div>
       </div>
-      <div style="background: rgba(244,244,245,0.12);" class="row justify-content-center">
+      <div
+        style="background: rgba(244, 244, 245, 0.12)"
+        class="row justify-content-center"
+      >
         <div class="col-lg-4 col-md-6 col-sm-9">
-          <div class="leadership-item mt-30" style="border: 0;background:none">
+          <div
+            class="leadership-item mt-30"
+            style="border: 0; background: none"
+          >
             <div class="egg-container">
               <div style="width: 100%; height: auto; position: relative">
-                <img src="/assets/images/egg-bg.png" /> 
+                <img src="/assets/images/egg-bg.png" />
                 <div class="allCenter egg-bg">
-                  <div style="text-align: center;">
+                  <div style="text-align: center">
                     <img
                       src="/assets/images/stone-egg.png"
                       style="width: 50%"
                     />
-                    <div style="margin-top:1vh;color:#f4f4f5">Stone Egg</div>
+                    <div style="margin-top: 1vh; color: #f4f4f5">Stone Egg</div>
                   </div>
                 </div>
               </div>
@@ -46,17 +57,18 @@
         </div>
 
         <div class="col-lg-4 col-md-6 col-sm-9">
-          <div class="leadership-item mt-30" style="border: 0;background:none">
+          <div
+            class="leadership-item mt-30"
+            style="border: 0; background: none"
+          >
             <div class="egg-container">
               <div style="width: 100%; height: auto; position: relative">
                 <img src="/assets/images/egg-bg.png" />
                 <div class="allCenter egg-bg">
-                  <div style="text-align: center;">
-                    <img
-                      src="/assets/images/sky-egg.png"
-                      style="width: 50%"
-                    />
-                    <div style="margin-top:1vh;color:#f4f4f5">Sky Egg</div>
+                  <div style="text-align: center">
+                    <img src="/assets/images/sky-egg.png" style="width: 50%" />
+                    <div style="margin-top: 1vh; color: #f4f4f5;font-size:1.5vh">Sky Egg</div>
+                    <div style="margin-top: 1vh; color: #f4f4f5">$18000 DSC</div>
                   </div>
                 </div>
               </div>
@@ -73,17 +85,17 @@
           </div>
         </div>
         <div class="col-lg-4 col-md-6 col-sm-9">
-          <div class="leadership-item mt-30" style="border: 0;background:none">
+          <div
+            class="leadership-item mt-30"
+            style="border: 0; background: none"
+          >
             <div class="egg-container">
               <div style="width: 100%; height: auto; position: relative">
                 <img src="/assets/images/egg-bg.png" />
                 <div class="allCenter egg-bg">
-                  <div style="text-align: center;">
-                    <img
-                      src="/assets/images/wood-egg.png"
-                      style="width: 60%"
-                    />
-                    <div style="margin-top:1vh;color:#f4f4f5">Wood Egg</div>
+                  <div style="text-align: center">
+                    <img src="/assets/images/wood-egg.png" style="width: 60%" />
+                    <div style="margin-top: 1vh; color: #f4f4f5">Wood Egg</div>
                   </div>
                 </div>
               </div>
